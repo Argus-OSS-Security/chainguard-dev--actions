@@ -1,11 +1,12 @@
 name: test-argo-workflows
 
-on:
-  pull_request:
-    paths:
-      - 'setup-argo-workflows/**'
-      - '.github/workflows/test-argo-workflows.yaml'
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   pull_request:
+#     paths:
+#       - 'setup-argo-workflows/**'
+#       - '.github/workflows/test-argo-workflows.yaml'
+# 
 permissions: {}
 
 jobs:

@@ -1,11 +1,12 @@
 name: Test Bump Go Version Action
 
-on:
-  pull_request:
-    paths:
-      - 'bump-go-version-file/**'
-      - '.github/workflows/test-bump-go-version.yaml'
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   pull_request:
+#     paths:
+#       - 'bump-go-version-file/**'
+#       - '.github/workflows/test-bump-go-version.yaml'
+# 
 permissions: {}
 
 jobs:

@@ -3,11 +3,12 @@
 
 name: stale
 
-on:
-  schedule:
-    - cron: "0 6 * * *" # daily at 6am UTC
-  workflow_dispatch:
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   schedule:
+#     - cron: "0 6 * * *" # daily at 6am UTC
+#   workflow_dispatch:
+# 
 permissions: {}
 
 jobs:

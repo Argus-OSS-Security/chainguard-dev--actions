@@ -1,14 +1,15 @@
 name: test-setup-melange
 
-on:
-  pull_request:
-    paths:
-      - 'setup-melange/**'
-      - 'melange-build/**'
-      - 'melange-build-pkg/**'
-      - 'melange-keygen/**'
-      - '.github/workflows/test-setup-melange.yaml'
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   pull_request:
+#     paths:
+#       - 'setup-melange/**'
+#       - 'melange-build/**'
+#       - 'melange-build-pkg/**'
+#       - 'melange-keygen/**'
+#       - '.github/workflows/test-setup-melange.yaml'
+# 
 permissions: {}
 
 jobs:

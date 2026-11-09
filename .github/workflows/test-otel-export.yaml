@@ -1,11 +1,12 @@
 name: test-otel-export
 
-on:
-  pull_request:
-    paths:
-      - "otel-export/**"
-      - ".github/workflows/test-otel-export.yaml"
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   pull_request:
+#     paths:
+#       - "otel-export/**"
+#       - ".github/workflows/test-otel-export.yaml"
+# 
 permissions: {}
 
 jobs:

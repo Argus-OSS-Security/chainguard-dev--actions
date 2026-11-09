@@ -1,11 +1,12 @@
 name: test-setup-terraform
 
-on:
-  pull_request:
-    paths:
-      - 'setup-terraform/**'
-      - '.github/workflows/test-setup-terraform.yaml'
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   pull_request:
+#     paths:
+#       - 'setup-terraform/**'
+#       - '.github/workflows/test-setup-terraform.yaml'
+# 
 permissions: {}
 
 jobs:

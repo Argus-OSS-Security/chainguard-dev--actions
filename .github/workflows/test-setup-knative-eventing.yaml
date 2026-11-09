@@ -1,13 +1,14 @@
 name: test-setup-knative-eventing
 
-on:
-  pull_request:
-    branches:
-      - main
-    paths:
-      - 'setup-knative-eventing/**'
-      - '.github/workflows/test-setup-knative-eventing.yaml'
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   pull_request:
+#     branches:
+#       - main
+#     paths:
+#       - 'setup-knative-eventing/**'
+#       - '.github/workflows/test-setup-knative-eventing.yaml'
+# 
 concurrency:
   group: test-setup-knative-eventing-${{ github.head_ref }}
   cancel-in-progress: true

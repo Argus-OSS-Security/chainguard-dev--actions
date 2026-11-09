@@ -1,14 +1,15 @@
 name: setup-kind
 
-on:
-  pull_request:
-    branches:
-      - main
-    paths:
-      - 'setup-kind/**'
-      - 'setup-knative/**'
-      - '.github/workflows/test-setup-kind.yaml'
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   pull_request:
+#     branches:
+#       - main
+#     paths:
+#       - 'setup-kind/**'
+#       - 'setup-knative/**'
+#       - '.github/workflows/test-setup-kind.yaml'
+# 
 defaults:
   run:
     shell: bash

@@ -1,11 +1,12 @@
 name: test-setup-registry
 
-on:
-  pull_request:
-    paths:
-      - 'setup-registry/**'
-      - '.github/workflows/test-setup-registry.yaml'
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   pull_request:
+#     paths:
+#       - 'setup-registry/**'
+#       - '.github/workflows/test-setup-registry.yaml'
+# 
 permissions: {}
 
 jobs:

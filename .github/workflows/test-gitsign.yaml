@@ -1,11 +1,12 @@
 name: test-gitsign
 
-on:
-  pull_request:
-    paths:
-      - 'setup-gitsign/**'
-      - '.github/workflows/test-gitsign.yaml'
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   pull_request:
+#     paths:
+#       - 'setup-gitsign/**'
+#       - '.github/workflows/test-gitsign.yaml'
+# 
 permissions: {}
 
 jobs:

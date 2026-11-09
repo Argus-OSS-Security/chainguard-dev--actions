@@ -1,13 +1,14 @@
 name: test-setup-spdx
 
-on:
-  pull_request:
-    branches:
-      - main
-    paths:
-      - 'setup-spdx/**'
-      - '.github/workflows/test-setup-spdx.yaml'
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   pull_request:
+#     branches:
+#       - main
+#     paths:
+#       - 'setup-spdx/**'
+#       - '.github/workflows/test-setup-spdx.yaml'
+# 
 permissions: {}
 
 jobs:

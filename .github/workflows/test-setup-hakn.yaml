@@ -1,13 +1,14 @@
 name: test-setup-hakn
 
-on:
-  pull_request:
-    branches:
-      - main
-    paths:
-      - 'setup-hakn/**'
-      - '.github/workflows/test-setup-hakn.yaml'
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   pull_request:
+#     branches:
+#       - main
+#     paths:
+#       - 'setup-hakn/**'
+#       - '.github/workflows/test-setup-hakn.yaml'
+# 
 concurrency:
   group: test-setup-hakn-${{ github.head_ref }}
   cancel-in-progress: true

@@ -1,11 +1,12 @@
 name: test-git-tag
 
-on:
-  pull_request:
-    paths:
-      - "git-tag/**"
-      - ".github/workflows/test-git-tag.yaml"
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   pull_request:
+#     paths:
+#       - "git-tag/**"
+#       - ".github/workflows/test-git-tag.yaml"
+# 
 permissions: {}
 
 jobs:

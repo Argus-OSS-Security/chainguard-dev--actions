@@ -1,13 +1,14 @@
 name: test-setup-eksctl
 
-on:
-  pull_request:
-    branches:
-      - main
-    paths:
-      - 'setup-eksctl/**'
-      - '.github/workflows/test-setup-eksctl.yaml'
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   pull_request:
+#     branches:
+#       - main
+#     paths:
+#       - 'setup-eksctl/**'
+#       - '.github/workflows/test-setup-eksctl.yaml'
+# 
 permissions: {}
 
 jobs:
